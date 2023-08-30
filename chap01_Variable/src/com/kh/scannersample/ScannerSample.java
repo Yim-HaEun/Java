@@ -6,7 +6,7 @@ public class ScannerSample {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		
-		/*System.out.println("나이를 입력해주세요.");
+		System.out.println("나이를 입력해주세요.");
 		int age = sc.nextInt(); //정수만 받는 next
 		System.out.println("내 나이는" + age + "입니다.");
 		
@@ -22,7 +22,7 @@ public class ScannerSample {
 		System.out.print("당신의 번호를 입력하세요.");
 		phoneNumber = sc.nextInt(); //하이픈 넣지말것
 		System.out.println("당신의 전화번호는 " + phoneNumber + "입니다.");
-		*/
+		
 		
 		//내 취미와 내가 좋아하는 음식과 내 주소 1개 출력하기
 		String hobby;
@@ -38,6 +38,8 @@ public class ScannerSample {
 		System.out.print("당신의 주소는 무엇입니까?");
 		myAddress = sc.next();
 		System.out.println("당신의 주소는 " + myAddress +"군요!");
+		
+		String name1, name2;
 		
 	}
 
