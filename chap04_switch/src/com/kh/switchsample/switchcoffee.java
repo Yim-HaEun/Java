@@ -11,7 +11,7 @@ public class switchcoffee {
 		int choice;
 		boolean isChoice = false;
 		
-		while(!isChoice) {
+		while(!isChoice) { //조건이 참인 동안 코드 블록을 반복적으로 실행
 			System.out.println("커피 주문해주세요. 1.아메리카노 2.카페라떼 3.홍차");
 			choice = scan.nextInt();
 			switch(choice) {
