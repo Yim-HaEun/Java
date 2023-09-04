@@ -18,7 +18,9 @@ public class Practice8 {
 				}else {
 					for(; ; ) {//for문 안 완성하기
 						System.out.println("");
-						
+					}
+				}
+	
 
 	}
 
