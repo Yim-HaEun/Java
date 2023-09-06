@@ -29,14 +29,11 @@ public class PlayerCharacter {
 		this.name = name;
 	}
 	public void setHealth(int health) {
-		//만약 체력이 0이라면 죽이고 체력이 1 이상이면 살리자
-		if (health >= 1) {//체력이 1이상일 경우
-			this.health = health;
-		}else {// 체력이 0 이하라면 체력을 표시할 가치도 없다.
-			System.out.println("사망");
-		}
 		
+			this.health = health;
 	}
+	//잘못된 예
+	
 	//0 미만의 값을 넣어도 0 이하의 값이 출력되지 않음
 	public void setAttackPower(int attackPower) {
 		//만약에 파워가 0보다 클 경우
