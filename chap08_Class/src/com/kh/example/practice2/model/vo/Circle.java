@@ -2,13 +2,27 @@ package com.kh.example.practice2.model.vo;
 
 public class Circle {
 	//필드 멤버변수
-	double PI =3.14;
-	int radius=1;
+	private double PI = 3.14;
+	private int radius = +1;
 	
-	//생성자
-	public Circle() { //기본 생성자, 아무런 초기화를 진행하지 않는다.
+	
+		
+	
+	public double getPI() {
+		return PI;
+	}
+	public int getRadius() {
+		return radius;
+	}
+
+	public void setPI(double pI) {
+		this.PI = PI;
 		
 	}
+	public void setRadius(int radius) {
+		this.radius = radius;
+	}
+
 	//메서드 
 	
 	public void incrementRadius() {
