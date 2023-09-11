@@ -15,7 +15,9 @@ public class PersonController {
 		String userInput = view.getUserInput();
 		model.setPerson(userInput);
 		String result = model.PersonName();
-		System.out.println("이름 : " + result);
+			System.out.println("이름 : " + result);
+		}
 		
-	}
+		
+	
 }

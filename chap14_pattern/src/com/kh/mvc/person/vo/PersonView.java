@@ -11,7 +11,9 @@ public class PersonView {
 	}
 	//결과
 	public void displayName(String result) {
-		System.out.println("이름 : " + result);
+			System.out.println("이름 : " + result);
+		
 	}
+		
 
 }
