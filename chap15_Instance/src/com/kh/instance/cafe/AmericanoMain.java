@@ -1,0 +1,14 @@
+package com.kh.instance.cafe;
+
+public class AmericanoMain {
+
+	public static void main(String[] args) {
+							//사이즈랑 설탕여부
+		Americano client1 = new Americano(1, true);
+		client1.makeCoffee();
+		
+		//Americano 인스턴스 3개 만들기
+
+	}
+
+}
