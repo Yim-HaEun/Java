@@ -27,5 +27,4 @@ public class CalculatorRun extends CalculatorForMod{
 		System.out.println("div : " + result4);
 		*/
 	}
-
 }

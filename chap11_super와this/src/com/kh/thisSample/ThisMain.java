@@ -38,5 +38,4 @@ public class ThisMain {
 		obj1.printValue();
 		obj2.printValue();
 	}
-
 }

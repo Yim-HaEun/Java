@@ -26,7 +26,7 @@ public class LinkedListExam {
 		linkedList.add(1);
 		linkedList.add(2);
 		linkedList.add(3);
-		
+		linkedList.add(4);
 		linkedList.set(0,5);
 		linkedList.remove(2);
 		
