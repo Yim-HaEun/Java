@@ -25,10 +25,8 @@ public class Array04 {
 		 for(int i = 0; i<fruitArray.length; i++) {
 			 System.out.print(fruitArray[i] + " ");
 		 }
-				 
-		 
-		
 
 	}
+	
 
 }
