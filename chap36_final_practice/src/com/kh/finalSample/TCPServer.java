@@ -20,7 +20,6 @@ public class TCPServer {
 		while(true) {
 			Socket client = server.accept();
 			System.out.println("connect Client" + client.getInetAddress());
-			
 			//Buffered
 			/*
 			OutputStream outStream = client.getOutputStream();
